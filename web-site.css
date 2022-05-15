@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #f5f4ff;
+    color: #0f141e;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.avatar1 {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px;
+    margin-bottom: 25px; /*делаем отступ сверху*/
+}
+.info-text a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#30A8E6; /*добавляем фон к пункту меню*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:10px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    border-radius:6px; /*добавляем скругление*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.info-text a:hover {
+    background:#1C85BB;
+}
+.info-text li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:5px; /*Добавляем отступ у пунктов меню*/
+}
+
+.info p {
+    color: #454648;
+    margin: 0;
+    font-style: italic;
+}
+.container {
+    max-width: 1200px; /*ширина сайта*/
+    margin: auto;
+}
+.card {
+    padding: 1px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    text-align: center;
+}
+.yel {
+    background: #fff9dc;
+}
+.info2 {
+    padding: 1px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    background: #dce0ff;
+
+}
+.info2-text {
+    margin-left: 15px;
+    margin-top: 65px;
+}
+.a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#9239f9; /*добавляем фон к пункту меню*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:10px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    border-radius:6px; /*добавляем скругление*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+    background:#5a1e9f;/*добавляем эффект при наведении*/
+}
+.info3 {
+    padding: 1px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    background: #e7ffdc;
+}
+.info3-text {
+    margin-bottom: 1px;
+    margin-left: 15px;
+}
+.info3-text h2 {
+    padding: 1px;
+}
+.info3-text li {
+    color:#47484b;
+    margin-bottom: 2px;
+}
+
+.info4 {
+    padding: 1px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    background: #dcfeff;
+}
+.info4-text {
+    margin-bottom: 1px;
+    margin-left: 15px;
+}
+.info4-text h2 {
+    padding: 1px;
+}
+.info4-text li {
+    color:#47484b;
+    margin-bottom: 2px;
+}
+.pi{
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+    }
+    .info2 {
+        display: block;
+    }
+    .info3 {
+        display: block;
+    }
+    .info4 {
+        display: block;
+    }
+}
